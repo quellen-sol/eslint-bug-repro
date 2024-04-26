@@ -1,0 +1,26 @@
+{
+  "author": "",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "eslint-repro",
+  "scripts": {
+    "build": "tsc",
+    "start": "pnpm build && node dist/index.js"
+  },
+  "version": "1.0.0",
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.0.2",
+    "@eslint/js": "^9.1.1",
+    "@typescript-eslint/eslint-plugin": "^6.4.0",
+    "acorn": "^8.11.3",
+    "eslint": "^8.57.0",
+    "eslint-config-standard-with-typescript": "^43.0.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1",
+    "globals": "^15.0.0",
+    "typescript": "^5.4.5"
+  }
+}
