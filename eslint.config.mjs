@@ -12,10 +12,10 @@ const compat = new FlatCompat({ baseDirectory: __dirname, recommendedConfig: plu
 
 export default [
   {
-    languageOptions: { globals: globals.browser },
+    languageOptions: { globals: globals.node },
     rules: {
-      "no-unused-vars": "error",
       eqeqeq: "error",
+      "no-unused-vars": "error",
     },
   },
   ...compat.extends("standard-with-typescript"),
