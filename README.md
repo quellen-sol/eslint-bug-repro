@@ -11,6 +11,6 @@ And chose the following options:
 ✔ What type of modules does your project use? · esm
 ✔ Which framework does your project use? · none
 ✔ Does your project use TypeScript? · typescript
-✔ Where does your code run? · browser
+✔ Where does your code run? · node
 ✔ Which style guide do you want to follow? · standard
 ```
